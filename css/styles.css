@@ -247,6 +247,7 @@ img {
   margin-bottom: 16px;
 }
 .footer-span {
+  display: inline-flex;
   color: #f4f4fd;
 }
 .footer-text {
