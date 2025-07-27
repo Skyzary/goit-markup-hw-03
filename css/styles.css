@@ -39,7 +39,7 @@ img {
   gap: 75px;
   align-items: center;
 }
-.menu {
+.nav-list {
   display: flex;
   flex-direction: row;
   gap: 40px;
@@ -47,6 +47,7 @@ img {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
 .logo {
   margin-right: 76px;
   font-family: Raleway, sans-serif;
@@ -212,10 +213,7 @@ img {
   padding-bottom: 32px;
 }
 .portfolio-section {
-  padding-left: 156px;
-  padding-top: 120px;
-  padding-right: 156px;
-  padding-bottom: 120px;
+  padding: 120px 0 120px 0;
 }
 .portfolio-section-title {
   margin-bottom: 72px;
@@ -223,31 +221,30 @@ img {
 .footer {
   background-color: #2e2f42;
 }
-.portfolio-section ul {
+.portfolio-list {
   display: flex;
   flex-direction: row;
-  gap: 48px 20px;
+  column-gap: 24px;
+  row-gap: 48px;
   flex-wrap: wrap;
   justify-content: center;
 }
-.portfolio-card {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
-  padding-right: 16px;
-  width: 360px;
-  height: 420px;
-  justify-content: space-between;
-  border-width: 0px, 1px, 1px, 1px;
-  border-style: solid;
-  border-color: #e7e9fc;
+.card-content {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.app-name {
+  margin-bottom: 8px;
+}
+.footer {
+  padding: 100px 0 100px;
 }
 .footer .logo-footer {
+  display: inline-block;
   font-family: Raleway, sans-serif;
   color: #4d5ae5;
+  margin-bottom: 16px;
 }
 .footer-span {
   color: #f4f4fd;
