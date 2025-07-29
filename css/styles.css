@@ -244,7 +244,7 @@ img {
   padding: 100px 0 100px;
 }
 .logo-footer {
-  display: inline-flex;
+  display: inline-block;
   font-family: Raleway, sans-serif;
   color: #4d5ae5;
   margin-bottom: 16px;
