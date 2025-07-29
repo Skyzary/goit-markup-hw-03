@@ -159,7 +159,7 @@ img {
   background-color: #ffffff;
   padding: 120px 0 120px;
 }
-.visually-hidden {
+.is-hidden {
   display: none;
 }
 .advantage {
